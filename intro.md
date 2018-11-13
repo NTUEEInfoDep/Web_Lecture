@@ -6,9 +6,16 @@
 
 [VSCode](https://code.visualstudio.com/)
 
+### Recommended Extensions
+
+- Languages: C/C++, Python/Anaconda Extension Pack ...
+- GitLens
+- TODO Highlight, open in browser ...
+
 
 ## Node.js
 > *Node*.*js*® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
 [Node.js](https://nodejs.org/en/)
 
 ## HTML
