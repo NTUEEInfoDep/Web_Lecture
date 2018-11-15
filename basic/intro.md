@@ -55,6 +55,9 @@ slash `/` after empty element is optional(have no meaning)
 |  symbol   |             Symbol.toPrimitive              |
 
 No char, NaN is still number, no integral type
+```javascript
+console.log(9007199254740992, 9007199254740993);
+```
 
 ### Object
 Date, Set, Map, Array, Function, Error, Math, RegExp, etc
