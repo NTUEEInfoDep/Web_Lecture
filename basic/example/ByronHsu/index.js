@@ -21,5 +21,5 @@ button_dom.onclick = (e) =>{
    console.log(w, h);
    console.log(bmi);
    // 把bmi render到網頁上
-   bmi_dom.innerHTML = bmi
+   bmi_dom.textContent = bmi
 }
