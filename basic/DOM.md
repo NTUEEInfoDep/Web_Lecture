@@ -77,13 +77,16 @@
         </td>
     </tr>
 </table>
-### Class, tag, id, name
 
-|      | Class                     | Tag          | ID       | Name         |
-| ---- | ------------------------- | ------------ | -------- | ------------ |
-| HTML | class='a b c'             | <p></p>      | id='sth' | name='sth'   |
-| CSS  | .a .b .c                  | p            | #sth     | [name='sth'] |
-| JS   | Elem.className/Elem.class | Elem.tagName | Elem.id  | Elem.name    |
+### Tag, class, id, name
+```html
+    <p class='a b c' id='sth' name='sth'></p>
+```
+|      | Tag          | Class                     | ID       | Name         |
+| ---- | ------------ | ------------------------- | -------- | ------------ |
+| HTML | <p></p>      | class='a b c'             | id='sth' | name='sth'   |
+| CSS  | p            | .a .b .c                  | #sth     | [name='sth'] |
+| JS   | Elem.tagName | Elem.className/Elem.class | Elem.id  | Elem.name    |
 
 ### Manipulating DOM with ~~Vanilla.js~~ JavaScript
 
