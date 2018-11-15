@@ -31,6 +31,7 @@
 <p>I'm a paragraph</p>
 
 ### Empty element
+slash `/` after empty element is optional(have no meaning)
 ```html
 <img src='https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png' alt='Lena'>
 <br>
@@ -53,8 +54,12 @@
 | undefined |                  undefined                  |
 |  symbol   |             Symbol.toPrimitive              |
 
+No char, NaN is still number, no integral type
+
 ### Object
 Date, Set, Map, Array, Function, Error, Math, RegExp, etc
+
+Function is Object(First-class function)
 
 ### Variable Declaration
 ```javascript
@@ -96,10 +101,12 @@ while(expression)
 do
     statement
 while(expr)
-    
+
+/* first expression is not necessarily variable declaration*/
 for([expr]|[var declaration]; [expr]; [expr])
     [statement]
 
+/* in loops through key(no strict order), of loops through value(preserves order)*/
 for(let|var <declaration> in|of <iterable>)
     [statement]
 ```
@@ -111,7 +118,7 @@ function functionName(positional, defaultArg=1, ...rest) {
     return;
 }
 
-functionName(); // undefined "2" []
+functionName(); // undefined 1 []
 ```
 
 ### Hello World!
