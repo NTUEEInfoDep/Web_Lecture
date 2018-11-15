@@ -117,7 +117,7 @@ for(let|var <declaration> in|of <iterable>)
 ### Function
 ```javascript
 function functionName(positional, defaultArg=1, ...rest) {
-	console.log(positional, defaultArg, rest);
+    console.log(positional, defaultArg, rest);
     return;
 }
 
