@@ -21,5 +21,8 @@ button_dom.onclick = (e) =>{
    console.log(w, h);
    console.log(bmi);
    // 把bmi render到網頁上
-   bmi_dom.innerHTML = bmi
+   bmi_dom.innerHTML = bmi;
+   console.log(bmi_dom.nextElementSibling);
+   if(bmi >= 0 && bmi <= 100)
+      bmi_dom.nextElementSibling.value = bmi;
 }
