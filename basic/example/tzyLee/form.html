@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form oninput='BMICalc_Result.value = `Your BMI is ${+BMICalc_Weight.value/(+BMICalc_Height.value/100)**2}`'>
+        <label for='BMICalc_Height'>Height: </label>
+        <input name='BMICalc_Height' type="number" min='0'></input>
+        <label for='BMICalc_Height'>cm<br></label>
+        <label for='BMICalc_Weight'>Weight: </label>
+        <input name='BMICalc_Weight' type="number" min='0'></input>
+        <label for='BMICalc_Weight'>kg<br></label>
+        <output name='BMICalc_Result'></output>
+    </form>
+</body>
+</html>
