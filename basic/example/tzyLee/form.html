@@ -9,11 +9,9 @@
 <body>
     <form oninput='BMICalc_Result.value = `Your BMI is ${+BMICalc_Weight.value/(+BMICalc_Height.value/100)**2}`'>
         <label for='BMICalc_Height'>Height: </label>
-        <input name='BMICalc_Height' type="number" min='0'></input>
-        <label for='BMICalc_Height'>cm<br></label>
+        <input id='BMICalc_Height' name='BMICalc_Height' type="number" min='0'> cm<br></input>
         <label for='BMICalc_Weight'>Weight: </label>
-        <input name='BMICalc_Weight' type="number" min='0'></input>
-        <label for='BMICalc_Weight'>kg<br></label>
+        <input id='BMICalc_Weight' name='BMICalc_Weight' type="number" min='0'>kg<br></input>
         <output name='BMICalc_Result'></output>
     </form>
 </body>
