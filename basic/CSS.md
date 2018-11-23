@@ -7,9 +7,9 @@
 | Selector type                                         | Example                          |
 | ----------------------------------------------------- | -------------------------------- |
 | Inline style                                          | style='font-weight:bold'         |
-| Type selectors and pseudo-elements                    | h1 and ::before                  |
-| Class selectors, attributes selectors, pseudo-classes | .example, [type='radio'], :hover |
 | ID selectors                                          | #example                         |
+| Class selectors, attributes selectors, pseudo-classes | .example, [type='radio'], :hover |
+| Type selectors and pseudo-elements                    | h1 and ::before                  |
 
 [Example](https://codepen.io/cshold/pen/rjyOXL)
 
