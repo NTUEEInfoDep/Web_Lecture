@@ -11,9 +11,9 @@
 let a = {a: Infinity, "b": true, "c": "str", d: Math, e: function() { return 3; }, add(a, b) { return a+b; }};
 /* Pretty printed: */
 let a = {
-    a: Infinity,// Number as value (key can be bare word)
-    "b": true,  // boolean as value (key can also be String)
-    0: "str",   // String as value (key can be Number)
+	a: Infinity,// Number as value (key can be bare word)
+	"b": true,  // boolean as value (key can also be String)
+	0: "str",   // String as value (key can be Number)
 	Math: Array,// Another Object as value (also as key)
 	e: function(a, b) { return a+b; }, // Function as value
 	add(a, b) { return a+b; }       // Syntax sugar of above
