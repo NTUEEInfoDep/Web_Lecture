@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <script src="todo.js"></script>
+    <title>Todo-list</title>
+    <style>
+        #main {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%);
+            border: 2px;
+            border-color: black;
+            border-style: dashed;
+            padding: 2em;
+        }
+        #add_button {
+            font-size: 1em;
+        }
+        ul {
+            padding-left: 20;
+        }
+        li {
+            margin: 2px;
+            pointer-events: none;
+            font-size: 1.2em;
+        }
+        li::after {
+            font-family: 'Font Awesome 5 Free';
+            float: right;
+            content: ' \f057';
+            cursor: pointer;
+            pointer-events: all;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='main'>
+        <input id='input'>
+        <button id='add_button'><b>+</b></button>
+        <ul id='todo_list'>
+            <li>f</li>
+        </ul>
+    </div>
+</body>
+
+</html>
