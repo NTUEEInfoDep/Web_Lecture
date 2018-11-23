@@ -1,0 +1,28 @@
+#main {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    padding: 2em;
+}
+#add_button {
+    font-size: 1em;
+}
+ul {
+    padding-left: 20;
+}
+li {
+    margin: 2px;
+    pointer-events: none;
+    font-size: 1.2em;
+}
+li::after {
+    font-family: 'Font Awesome 5 Free';
+    float: right;
+    content: ' \f057';
+    cursor: pointer;
+    pointer-events: all;
+}
