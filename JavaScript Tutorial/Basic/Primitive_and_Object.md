@@ -5,15 +5,16 @@
 ## ECMAScript Language Types
 
 總共有七種 type，如下面所示：
-| Type | Value |
-|:-------:|:--:|
-|Undefined| undefined|
-|Null| null |
-|Boolean| true, false|
-|String| "", "a", "字串", '單引號還是字串'|
-|Symbol| @@iterator, @@toPrimitive|
-|Number| 42, -0.3, NaN, Infinity|
-|Object| {}, Object |
+
+|   Type    |               Value               |
+| :-------: | :-------------------------------: |
+| Undefined |             undefined             |
+|   Null    |               null                |
+|  Boolean  |            true, false            |
+|  String   | "", "a", "字串", '單引號還是字串' |
+|  Symbol   |     @@iterator, @@toPrimitive     |
+|  Number   |      42, -0.3, NaN, Infinity      |
+|  Object   |            {}, Object             |
 
 - 可以用`typeof`這個 operator 「大略」看到一個 value 的 type
   - `typeof` 的結果會根據[這個表](https://www.ecma-international.org/ecma-262/#table-35)而定
