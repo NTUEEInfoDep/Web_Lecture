@@ -60,7 +60,7 @@ console.log(anotherGuy.getFullName()); // [Hidden]
 
 ## Prototype
 
-有認真看得人可以發現上面已經提到過很多次 `prototype` 了，這裡開始大略介紹什麼事 `prototype`
+- 有認真看得人可以發現上面已經提到過很多次 `prototype` 了，這裡開始大略介紹什麼是 `prototype`
 
 首先先聲明容易令人混淆的一點：
 
