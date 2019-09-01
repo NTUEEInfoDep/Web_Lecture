@@ -8,14 +8,15 @@
 ## Object literal
 
 ```javascript
-let a = {a: Infinity, "b": true, "c": "str", d: Math, e: function() { return 3; }, add(a, b) { return a+b; }};
+let a = {a: Infinity, "b": true, 0: "str", [Math]: Array, e: function() { return 3; }, add(a, b) { return a+b; }};
 /* Pretty printed: */
 let a = {
 	a: Infinity,// Number as value (key can be bare word)
 	"b": true,  // boolean as value (key can also be String)
-	0: "str",   // String as value (key can be Number)
-	Math: Array,// Another Object as value (also as key)
+	0: "str",   // String as value (Number is implicit cast to "0")
 	e: function(a, b) { return a+b; }, // Function as value
+    // Use expression as key: square bracket
+    [Math]: Array, // Use Array as value, Math is cast to "[object Math]"
 	add(a, b) { return a+b; }       // Syntax sugar of above
 }
 ```
@@ -35,8 +36,7 @@ JavaScript Object with the following constraint:
 
 ```javascript
 a.a       // Infinity
-a.b       // Infinity
-a.Math    // Array
+a.b       // true
 a.e(1, 2) // 3
 
 a."a"     // Syntax Error, the token after dot must be valid javascript identifier 
@@ -51,7 +51,7 @@ Cannot access property conveniently
 
 ```javascript
 a['a']       // Infinity
-a[Math]      // Array
+a[Math]      // Array, a["[object Math]"]
 a['e'](1, 2) // 3
 a[0]         // "str"
 ```
