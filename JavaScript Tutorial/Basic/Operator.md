@@ -77,3 +77,4 @@ void doSomething();
 ## 總結
 
 - 比較 primitive 的相等性時，盡量用 `===` 與 `!==`
+- 從 Python 來的人記得 `and` 和 `or` 還有 `not` 是 `&&`, `||`, `!`
