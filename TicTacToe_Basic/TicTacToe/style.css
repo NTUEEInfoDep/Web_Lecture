@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+table {
+  min-width: 300px;
+  min-height: 300px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  border: black solid 1px;
+  width: 33.3%;
+  height: 33.3%;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  user-select: none;
+  -ms-user-select: none;
+}
+
+button {
+  font-size: 1.2rem;
+  margin: 50px;
+}
+
+.preview {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#winner {
+  font-size: 1.5rem;
+}
