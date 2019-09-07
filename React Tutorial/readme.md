@@ -2,7 +2,7 @@
 
 1. Basic
    1. [JSX](Basic/JSX.md)
-   2. [Components and Props]()
+   2. [Components and Props](Basic/Components_and_Props.md)
    3. [State and Lifecycle]()
    4. [Events]()
    5. [Conditional Rendering]()

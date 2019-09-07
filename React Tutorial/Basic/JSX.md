@@ -29,6 +29,7 @@ const something = (
 ```
 
 - #### 注意：以下的內容非常多，如果覺得一次無法吸收，可以先讓自己接受上面的寫法，跳到下面 `寫JSX的好習慣` 與 `總結`，看完整個 Basic 再回來看
+- 以下的東西可以一邊打在 [Babel Repl](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.6.0&externalPlugins=)，一邊看 compile 出來的 JavaScript code 是什麼
 
 ### 特徵 1 - Expression
 
@@ -140,10 +141,11 @@ const displayed = (
 ### 寫 JSX 的好習慣
 
 1. 最上面記得 `import React from 'react'`
-2. 整個 JSX 用括號包住
+2. 有用到 JSX 的檔案，副檔名最好叫做 `.jsx`
+3. 整個 JSX 用括號包住
    - 可以讓[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)之類的工具幫你加
-3. 不要亂縮排，start tag 和 end tag 對齊
-4. 縮排太多層的時候請包成 Component
+4. 不要亂縮排，start tag 和 end tag 對齊
+5. 縮排太多層的時候請包成 Component
 
 ## 總結
 
